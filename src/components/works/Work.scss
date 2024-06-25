@@ -1,0 +1,771 @@
+// @import "../../global.scss";
+// .work{
+//     background-color: $mainColor;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+
+//     .slider{
+//         height: 350px;
+//         display: flex;
+//         position: absolute;
+//         left: 0;
+
+//         .container{
+//             width: 100vw;
+//             display: flex;
+//             align-items: center;
+//             justify-content: center;
+            
+
+//             .item{
+//                 width: 700px;
+//                 height: 100%;
+//                 background-color: white;
+//                 border-radius: 20px;
+//                 display: flex;
+//                 align-items: center;
+//                 justify-content: center;
+
+//                 .left{
+//                     flex: 7;
+//                     height: 100%;
+//                     display: flex;
+//                     align-items: center;
+//                     justify-content: center;
+                    
+//                     .leftContainer{
+//                         width: 90%;
+//                         height: 70%;
+//                         display: flex;
+//                         flex-direction: column;
+//                         justify-content: space-between;
+
+//                         .imgContainer{
+//                             width: 60px;
+//                             height: 20px;
+//                             // border-radius: 50%;
+//                             // background-color: aquamarine;
+//                             display: flex;
+//                             align-items: center;
+//                             justify-content: center;
+//                             img{
+//                                 width: 100%;
+//                                 object-fit: cover;
+//                             }
+
+//                             h2{
+//                                 font-size: 10px;
+//                             }
+//                             h4{
+//                                 font-size: 6px;
+//                             }
+//                             p{
+//                                 font-size: 13px;
+//                             }
+//                             span{
+//                                 font-size: 12px;
+//                                 font-weight: 600;
+//                                 text-decoration: underline;
+//                             }
+//                         }
+//                     }
+
+//                 }
+//                 .right{
+//                     flex: 7;
+//                     height: 100%;
+                    
+
+//                 }
+
+//             }
+
+//         }
+//     }
+
+// }
+
+
+// @import "../../global.scss";
+
+// .work {
+//   background-color: $mainColor;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   padding: 20px;
+//   position: relative;
+
+//   .arrow{
+//     height: 40px;
+//     position: absolute;
+//     cursor: pointer;
+
+//     &.left{
+//         left: 100px;
+//         transform: rotateY(180deg);
+//     }
+
+//     &.right{
+//         right: 100px;
+//     }
+//   }
+
+//   .slider {
+//     width: 100%;
+//     display: flex;
+//     justify-content: center;
+//     position: absolute;
+//     left: -100vw;
+
+//     .container {
+//       width: 80%;
+//       display: flex;
+//       align-items: center;
+//       justify-content: center;
+
+//       .item {
+//         width: 100%;
+//         max-width: 1200px;
+//         height: auto;
+//         background-color: white;
+//         border-radius: 20px;
+//         display: flex;
+//         padding: 20px;
+//         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+//         overflow: hidden;
+
+//         .left {
+//           flex: 3;
+//           display: flex;
+//           align-items: center;
+//           justify-content: center;
+
+//           .leftContainer {
+//             width: 90%;
+//             display: flex;
+//             flex-direction: column;
+//             justify-content: space-between;
+//             padding: 20px;
+
+//             .imgContainer {
+//               width: 100px;
+//               height: 100px;
+//               margin-bottom: 20px;
+//               display: flex;
+//               align-items: center;
+//               justify-content: center;
+              
+//               img {
+//                 width: 100%;
+//                 height: 100%;
+//                 object-fit: contain;
+//               }
+//             }
+
+//             h2 {
+//               font-size: 24px;
+//               margin-bottom: 10px;
+//               color: #333;
+//             }
+
+//             h4 {
+//               font-size: 18px;
+//               margin-bottom: 20px;
+//               color: #666;
+//             }
+
+//             p {
+//               font-size: 16px;
+//               line-height: 1.6;
+//               color: #555;
+//             }
+
+//             span {
+//               font-size: 14px;
+//               font-weight: 600;
+//               text-decoration: underline;
+//               cursor: pointer ;
+//               color: $mainColor;
+//             }
+//           }
+//         }
+
+//         .right {
+//           flex: 2;
+//           display: flex;
+//           align-items: center;
+//           justify-content: center;
+//         //   background-color: #f4f4f4;
+//         //   border-top-right-radius: 20px;
+//         //   border-bottom-right-radius: 20px;
+//             img{
+//                 width: 400px;
+//             }
+//         }
+//       }
+//     }
+//   }
+// }
+
+// /* Responsive Design */
+// @media only screen and (max-width: 768px) {
+//   .work {
+//     padding: 10px;
+
+//     .slider {
+//       .container {
+//         .item {
+//           flex-direction: column;
+
+//           .left {
+//             flex: 1;
+//             .leftContainer {
+//               padding: 10px;
+
+//               .imgContainer {
+//                 width: 80px;
+//                 height: 80px;
+//                 margin-bottom: 10px;
+//               }
+
+//               h2 {
+//                 font-size: 20px;
+//               }
+
+//               h4 {
+//                 font-size: 16px;
+//               }
+
+//               p {
+//                 font-size: 14px;
+//               }
+
+//               span {
+//                 font-size: 12px;
+//               }
+//             }
+//           }
+
+//           .right {
+//             display: none;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+
+// @import "../../global.scss";
+
+// .work {
+//   background-color: $mainColor;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   padding: 20px;
+//   position: relative;
+//   overflow: hidden;
+//   width: 100vw;
+//   height: 100vh;
+
+//   .arrow {
+//     height: 40px;
+//     position: absolute;
+//     cursor: pointer;
+//     top: 50%;
+//     transform: translateY(-50%);
+//     // z-index: 2;
+
+//     &.left {
+//       left: 40px;
+//       transform: translateY(-50%) rotateY(180deg);
+//     }
+
+//     &.right {
+//       right: 70px;
+//       transform: translateY(-50%);
+//     }
+//   }
+
+//   .slider {
+//     display: flex;
+//     transition: transform 0.5s ease;
+//     width: 100%;
+//     position: absolute;
+//     left: 0;
+
+//     .container {
+//       min-width: 100vw;
+//       display: flex;
+//       align-items: center;
+//       justify-content: center;
+
+//       .item {
+//         width: 80%;
+//         max-width: 1200px;
+//         background-color: white;
+//         border-radius: 20px;
+//         display: flex;
+//         padding: 20px;
+//         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+//         overflow: hidden;
+//         margin: 0 10px;
+
+//         .left {
+//           flex: 3;
+//           display: flex;
+//           align-items: center;
+//           justify-content: center;
+
+//           .leftContainer {
+//             width: 90%;
+//             display: flex;
+//             flex-direction: column;
+//             justify-content: space-between;
+//             padding: 20px;
+
+//             .imgContainer {
+//               width: 100px;
+//               height: 100px;
+//               margin-bottom: 20px;
+//               display: flex;
+//               align-items: center;
+//               justify-content: center;
+
+//               img {
+//                 width: 100%;
+//                 height: 100%;
+//                 object-fit: contain;
+//               }
+//             }
+
+//             h2 {
+//               font-size: 24px;
+//               margin-bottom: 10px;
+//               color: #333;
+//             }
+
+//             h4 {
+//               font-size: 18px;
+//               margin-bottom: 20px;
+//               color: #666;
+//             }
+
+//             p {
+//               font-size: 16px;
+//               line-height: 1.6;
+//               color: #555;
+//             }
+
+//             span {
+//               font-size: 14px;
+//               font-weight: 600;
+//               text-decoration: underline;
+//               cursor: pointer;
+//               color: $mainColor;
+//             }
+//           }
+//         }
+
+//         .right {
+//           flex: 2;
+//           display: flex;
+//           align-items: center;
+//           justify-content: center;
+
+//           img {
+//             width: 100%;
+//             max-width: 400px;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+
+// /* Responsive Design */
+// @media only screen and (max-width: 768px) {
+//   .work {
+//     padding: 10px;
+
+//     .slider {
+//       .container {
+//         .item {
+//           flex-direction: column;
+
+//           .left {
+//             flex: 1;
+//             .leftContainer {
+//               padding: 10px;
+
+//               .imgContainer {
+//                 width: 80px;
+//                 height: 80px;
+//                 margin-bottom: 10px;
+//               }
+
+//               h2 {
+//                 font-size: 20px;
+//               }
+
+//               h4 {
+//                 font-size: 16px;
+//               }
+
+//               p {
+//                 font-size: 14px;
+//               }
+
+//               span {
+//                 font-size: 12px;
+//               }
+//             }
+//           }
+
+//           .right {
+//             display: none;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+
+
+
+
+// @import "../../global.scss";
+
+// .work {
+//   background-color: $mainColor;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   padding: 20px;
+//   position: relative;
+//   overflow: hidden;
+//   width: 100vw;
+//   height: 100vh;
+
+//   .arrow {
+//     height: 40px;
+//     position: absolute;
+//     cursor: pointer;
+//     top: 50%;
+//     transform: translateY(-50%);
+//     // z-index: 2;
+
+//     &.left {
+//       left: 40px;
+//     //   transform: translateY(-50%) rotateY(180deg);
+//       transform: rotateY(180deg);
+//     }
+
+//     &.right {
+//       right: 70px;
+//     //   transform: translateY(-50%);
+//     }
+//   }
+
+//   .slider {
+//     display: flex;
+//     transition: transform 0.5s ease;
+//     width: 100%;
+//     position: absolute;
+//     left: 0;
+
+//     .container {
+//       min-width: 100vw;
+//       display: flex;
+//       align-items: center;
+//       justify-content: center;
+
+//       .item {
+//         width: 80%;
+//         max-width: 1200px;
+//         background-color: white;
+//         border-radius: 20px;
+//         display: flex;
+//         padding: 20px;
+//         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+//         overflow: hidden;
+//         margin: 0 10px;
+
+//         .left {
+//           flex: 3;
+//           display: flex;
+//           align-items: center;
+//           justify-content: center;
+
+//           .leftContainer {
+//             width: 90%;
+//             display: flex;
+//             flex-direction: column;
+//             justify-content: space-between;
+//             padding: 20px;
+
+//             .imgContainer {
+//               width: 100px;
+//               height: 100px;
+//               margin-bottom: 20px;
+//               display: flex;
+//               align-items: center;
+//               justify-content: center;
+
+//               img {
+//                 width: 100%;
+//                 height: 100%;
+//                 object-fit: contain;
+//               }
+//             }
+
+//             h2 {
+//               font-size: 24px;
+//               margin-bottom: 10px;
+//               color: #333;
+//             }
+
+//             h4 {
+//               font-size: 18px;
+//               margin-bottom: 20px;
+//               color: #666;
+//             }
+
+//             p {
+//               font-size: 16px;
+//               line-height: 1.6;
+//               color: #555;
+//             }
+
+//             span {
+//               font-size: 14px;
+//               font-weight: 600;
+//               text-decoration: underline;
+//               cursor: pointer;
+//               color: $mainColor;
+//             }
+//           }
+//         }
+
+//         .right {
+//           flex: 2;
+//           display: flex;
+//           align-items: center;
+//           justify-content: center;
+
+//           img {
+//             width: 100%;
+//             max-width: 400px;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+
+// // /* Responsive Design */
+// // @media only screen and (max-width: 768px) {
+// //   .work {
+// //     padding: 10px;
+
+// //     .slider {
+// //       .container {
+// //         .item {
+// //           flex-direction: column;
+
+// //           .left {
+// //             flex: 1;
+// //             .leftContainer {
+// //               padding: 10px;
+
+// //               .imgContainer {
+// //                 width: 80px;
+// //                 height: 80px;
+// //                 margin-bottom: 10px;
+// //               }
+
+// //               h2 {
+// //                 font-size: 20px;
+// //               }
+
+// //               h4 {
+// //                 font-size: 16px;
+// //               }
+
+// //               p {
+// //                 font-size: 14px;
+// //               }
+
+// //               span {
+// //                 font-size: 12px;
+// //               }
+// //             }
+// //           }
+
+// //           .right {
+// //             display: none;
+// //           }
+// //         }
+// //       }
+// //     }
+// //   }
+// // }
+
+
+
+@import "../../global.scss";
+
+.works {
+  background-color:$mainColor;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  .arrow {
+    height: 50px;
+    position: absolute;
+    cursor: pointer;
+
+    // @include mobile {
+    //   display: none;
+    // }
+
+    &.left {
+      left: 100px;
+      transform: rotateY(180deg);
+    }
+
+    &.right {
+      right: 100px;
+    }
+  }
+
+  .slider {
+    height: 350px;
+    display: flex;
+    position: absolute;
+    left: 0;
+    transition: all 1s ease-out;
+
+    // @include mobile {
+    //   height: 100vh;
+    //   flex-direction: column;
+    //   justify-content: center;
+    // }
+
+    .container {
+      width: 100vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .item {
+        width: 700px;
+        height: 100%;
+        background-color: white;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        // @include mobile {
+        //   width: 80%;
+        //   height: 150px;
+        //   margin: 15px 0;
+        // }
+
+        .left {
+          flex: 6;
+          height: 80%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          .leftContainer {
+            width: 90%;
+            height: 70%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .imgContainer {
+                width: 60px;
+                height: 60px;
+                // border-radius: 50%;
+                // background-color: rgb(245, 179, 155);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 20px;
+  
+                img {
+                  width: 100%;
+                  height: 30px;
+                }
+            // .imgContainer {
+            //   width: 40px;
+            //   height: 40px;
+            // //   border-radius: 50%;
+            // //   background-color: rgb(245, 179, 155);
+            //   display: flex;
+            //   align-items: center;
+            //   justify-content: center;
+
+            // //   @include mobile {
+            // //     width: 20px;
+            // //     height: 20px;
+            // //   }
+
+            //   img {
+            //     width: 25px;
+
+                // @include mobile {
+                //   width: 15px;
+                // }
+              
+            }
+            h2 {
+              font-size: 20px;
+
+            //   @include mobile{
+            //     font-size: 13px;
+            //   }
+            }
+            h4{
+                font-size: 14px;
+                color: gray;
+            }
+            p {
+              font-size: 13px;
+            //   @include mobile{
+            //     display: none;
+            //   }
+            }
+            span {
+              font-size: 12px;
+              font-weight: 600;
+              text-decoration: underline;
+              cursor: pointer;
+            }
+          }
+        }
+        .right {
+          flex: 6;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          overflow: hidden;
+
+          img {
+            width: 400px;
+            transform: rotate(-10deg);
+          }
+        }
+      }
+    }
+  }
+}
