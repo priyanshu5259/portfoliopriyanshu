@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/priyanshu5259/portfoliopriyanshu.git/static/css/main.d14be94c.css",
+    "main.js": "/priyanshu5259/portfoliopriyanshu.git/static/js/main.e7f48ee2.js",
+    "index.html": "/priyanshu5259/portfoliopriyanshu.git/index.html",
+    "main.d14be94c.css.map": "/priyanshu5259/portfoliopriyanshu.git/static/css/main.d14be94c.css.map",
+    "main.e7f48ee2.js.map": "/priyanshu5259/portfoliopriyanshu.git/static/js/main.e7f48ee2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d14be94c.css",
+    "static/js/main.e7f48ee2.js"
+  ]
+}
